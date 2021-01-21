@@ -60,19 +60,7 @@
     <meta property="og:site_name" content="코딩하는 할배" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생" />
-    <meta property="og:description" content="데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 
-
-    데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생
-    데이터 엔지니어를 위한 하둡(2강) - 하둡의 성장
-
-
-Systax Highlighting Test
-function syntaxHighlight(code) {
-   var foo = 'Hello World';
-   var bar = 100;
-}
-
-" />
+    <meta property="og:description" content="데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생 데이터 엔지니어를 위한 하둡(2강) - 하둡의 성장 Systax Highlighting Test function syntaxHighlight(code) { var foo = 'Hello World'; var bar = 100; } package org.apache.lucene.analysis.ko; /* * Licensed to the Apache Software Foundation (ASF) under one" />
     <meta property="og:url" content="https://taehui.github.io/hadoop-1" />
     <meta property="og:image" content="https://taehui.github.io/assets/built/images/platform-logo.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -82,19 +70,7 @@ function syntaxHighlight(code) {
     <meta property="article:tag" content="Platform" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생" />
-    <meta name="twitter:description" content="데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 
-
-    데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생
-    데이터 엔지니어를 위한 하둡(2강) - 하둡의 성장
-
-
-Systax Highlighting Test
-function syntaxHighlight(code) {
-   var foo = 'Hello World';
-   var bar = 100;
-}
-
-" />
+    <meta name="twitter:description" content="데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생 데이터 엔지니어를 위한 하둡(2강) - 하둡의 성장 Systax Highlighting Test function syntaxHighlight(code) { var foo = 'Hello World'; var bar = 100; } package org.apache.lucene.analysis.ko; /* * Licensed to the Apache Software Foundation (ASF) under one" />
     <meta name="twitter:url" content="https://taehui.github.io/" />
     <meta name="twitter:image" content="https://taehui.github.io/assets/built/images/platform-logo.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -126,19 +102,7 @@ function syntaxHighlight(code) {
         "@type": "WebPage",
         "@id": "https://taehui.github.io/hadoop-1"
     },
-    "description": "데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 
-
-    데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생
-    데이터 엔지니어를 위한 하둡(2강) - 하둡의 성장
-
-
-Systax Highlighting Test
-function syntaxHighlight(code) {
-   var foo = 'Hello World';
-   var bar = 100;
-}
-
-"
+    "description": "데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생 데이터 엔지니어를 위한 하둡(2강) - 하둡의 성장 Systax Highlighting Test function syntaxHighlight(code) { var foo = 'Hello World'; var bar = 100; } package org.apache.lucene.analysis.ko; /* * Licensed to the Apache Software Foundation (ASF) under one"
 }
     </script>
 
@@ -247,6 +211,154 @@ into the {body} of the default.hbs template -->
    <span class="kd">var</span> <span class="nx">bar</span> <span class="o">=</span> <span class="mi">100</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div></div>
+
+<noscript><pre>package org.apache.lucene.analysis.ko;
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the &quot;License&quot;); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+import java.io.IOException;
+import java.io.Reader;
+import java.util.Arrays;
+import java.util.List;
+
+import org.apache.lucene.analysis.CharArraySet;
+import org.apache.lucene.analysis.LowerCaseFilter;
+import org.apache.lucene.analysis.StopFilter;
+import org.apache.lucene.analysis.StopwordAnalyzerBase;
+import org.apache.lucene.analysis.TokenStream;
+import org.apache.lucene.analysis.standard.ClassicFilter;
+
+/**
+ * A Korean Analyzer
+ */
+public class KoreanAnalyzer extends StopwordAnalyzerBase {
+  
+  /** An unmodifiable set containing some common English words that are not usually useful
+  for searching.*/
+  public static final CharArraySet ENGLISH_STOP_WORDS_SET;
+  
+  static {
+    final List&lt;String&gt; stopWords = Arrays.asList(
+      &quot;a&quot;, &quot;an&quot;, &quot;and&quot;, &quot;are&quot;, &quot;as&quot;, &quot;at&quot;, &quot;be&quot;, &quot;but&quot;, &quot;by&quot;,
+      &quot;for&quot;, &quot;if&quot;, &quot;in&quot;, &quot;into&quot;, &quot;is&quot;, &quot;it&quot;,
+      &quot;no&quot;, &quot;not&quot;, &quot;of&quot;, &quot;on&quot;, &quot;or&quot;, &quot;such&quot;,
+      &quot;that&quot;, &quot;the&quot;, &quot;their&quot;, &quot;then&quot;, &quot;there&quot;, &quot;these&quot;,
+      &quot;they&quot;, &quot;this&quot;, &quot;to&quot;, &quot;was&quot;, &quot;will&quot;, &quot;with&quot;
+    );
+    final CharArraySet stopSet = new CharArraySet(stopWords, false);
+    ENGLISH_STOP_WORDS_SET = CharArraySet.unmodifiableSet(stopSet); 
+  }
+
+  private boolean bigrammable = false;
+    
+  private boolean hasOrigin = false;
+    
+  private boolean exactMatch = false;
+  private boolean originCNoun = true;
+  private boolean queryMode = false;
+  private boolean wordSegment = false;
+  private boolean decompound = true;
+  
+  public KoreanAnalyzer() {
+	  this(ENGLISH_STOP_WORDS_SET);
+  }
+  
+  /** Builds an analyzer with the stop words from the given set.
+   * @param stopWords Set of stop words */
+  public KoreanAnalyzer(CharArraySet stopWords) {
+    super(stopWords);
+  }
+  
+  @Override
+  protected TokenStreamComponents createComponents(final String fieldName) {
+    final KoreanTokenizer src = new KoreanTokenizer();
+    TokenStream tok = new LowerCaseFilter(src);
+    tok = new ClassicFilter(tok);
+    tok = new KoreanFilter(tok, bigrammable, hasOrigin, exactMatch, originCNoun, queryMode, decompound);
+    if(wordSegment) tok = new WordSegmentFilter(tok, hasOrigin);
+    tok = new HanjaMappingFilter(tok);
+    tok = new PunctuationDelimitFilter(tok);
+    tok = new StopFilter(tok, stopwords);
+    
+    return new TokenStreamComponents(src, tok) {
+      @Override
+      protected void setReader(final Reader reader)  {
+        super.setReader(reader);
+      }
+    };
+	    
+  }
+    
+  /**
+   * determine whether the bigram index term is returned or not if a input word is failed to analysis
+   * If true is set, the bigram index term is returned. If false is set, the bigram index term is not returned.
+   */
+  public void setBigrammable(boolean is) {
+    bigrammable = is;
+  }
+  
+  /**
+   * determin whether the original term is returned or not if a input word is analyzed morphically.
+   */
+  public void setHasOrigin(boolean has) {
+    hasOrigin = has;
+  }
+
+  /**
+   * determin whether the original compound noun is returned or not if a input word is analyzed morphically.
+   */
+  public void setOriginCNoun(boolean cnoun) {
+    originCNoun = cnoun;
+  }
+  
+  /**
+   * determin whether the original compound noun is returned or not if a input word is analyzed morphically.
+   */
+  public void setExactMatch(boolean exact) {
+    exactMatch = exact;
+  }
+  
+  /**
+   * determin whether the analyzer is running for a query processing
+   */
+  public void setQueryMode(boolean mode) {
+    queryMode = mode;
+  }
+
+  public void setDecompound(boolean is) {
+	  this.decompound = is;
+  }
+  
+  /**
+   * determin whether word segment analyzer is processing
+   */
+	public boolean isWordSegment() {
+		return wordSegment;
+	}
+	
+	public void setWordSegment(boolean wordSegment) {
+		this.wordSegment = wordSegment;
+	}
+  
+}
+</pre></noscript>
+<script src="https://gist.github.com/Taehui/043bc4440632995e27c87a28d81e5cd7.js"> </script>
+
 
                 </div>
             </section>
