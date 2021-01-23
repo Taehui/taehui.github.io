@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5556947-f59d-4a1f-b408-cb590f3020c7" name="Default Changelist" comment="Markdown Post 1">
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/archive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/taehui/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/author/taehui/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/taehui/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/author/taehui/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/author_archive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoop-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoop-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/analysis/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/analysis/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/language/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/language/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/platform/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/platform/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/tips/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/tips/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/tips/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/tips/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nLcYTZA6NDggzL4ObvlRJWuUAO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5556947-f59d-4a1f-b408-cb590f3020c7" name="Default Changelist" comment="" />
+      <created>1611172858373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611172858373</updated>
+      <workItem from="1611172859429" duration="6170000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1611172914423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611172914423</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Webfont add">
+      <created>1611174585144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611174585144</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Apply syntax highlighting">
+      <created>1611175650537</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611175650537</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add Search Function">
+      <created>1611178498494</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611178498494</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add Google Search Console Verification">
+      <created>1611178728475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611178728475</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Github Gist">
+      <created>1611234794244</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611234794244</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Markdown Test">
+      <created>1611407144491</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611407144491</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Markdown Test">
+      <created>1611407460594</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611407460594</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Markdown Post 1">
+      <created>1611407980582</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611407980582</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Webfont add" />
+    <MESSAGE value="Apply syntax highlighting" />
+    <MESSAGE value="Add Search Function" />
+    <MESSAGE value="Add Google Search Console Verification" />
+    <MESSAGE value="Add Github Gist" />
+    <MESSAGE value="Markdown Test" />
+    <MESSAGE value="Markdown Post 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Markdown Post 1" />
+  </component>
+</project>
