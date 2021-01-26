@@ -1,15 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://taehui.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taehui.github.io/" rel="alternate" type="text/html" /><updated>2021-01-23T22:24:07+09:00</updated><id>https://taehui.github.io/</id><title type="html">코딩하는 할배</title><subtitle>소프트웨어 개발자를 위해 기술에 대한 이야기를 합니다.</subtitle><entry><title type="html">Markdown 사용법</title><link href="https://taehui.github.io/markdown-usage" rel="alternate" type="text/html" title="Markdown 사용법" /><published>2020-01-24T05:40:00+09:00</published><updated>2020-01-24T05:40:00+09:00</updated><id>https://taehui.github.io/markdown-usage</id><content type="html" xml:base="https://taehui.github.io/markdown-usage">&lt;p&gt;마크다운을 사용하는 것에 익숙해지면, 보다 컨텐츠 내용에 집중하여 빠르게 문서 작성을 해 나갈 수 있습니다.
-예제를 통해서 마크다운 사용법을 알아보도록 할께요~&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://taehui.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taehui.github.io/" rel="alternate" type="text/html" /><updated>2021-01-26T13:52:12+09:00</updated><id>https://taehui.github.io/</id><title type="html">코딩하는 할배</title><subtitle>소프트웨어 개발자를 위해 기술에 대한 이야기를 합니다.</subtitle><entry><title type="html">마크다운(kramdown) 사용법</title><link href="https://taehui.github.io/markdown-usage" rel="alternate" type="text/html" title="마크다운(kramdown) 사용법" /><published>2020-01-24T05:40:00+09:00</published><updated>2020-01-24T05:40:00+09:00</updated><id>https://taehui.github.io/markdown-usage</id><content type="html" xml:base="https://taehui.github.io/markdown-usage">&lt;p&gt;마크다운은 사람들이 읽기 쉽고 쓰기 쉬운 플레인 텍스트 포맷을 사용하여, 서식이 있는 문서를 작성하기 위해 만들어진 마크업 언어입니다.
+2004년 존 그루버가 RSS 1.0 의 공저자인 애런 스워츠와 협업을 통해 만들었으며, 아래 이미지를 보시면 보다 쉽게 이해가 됩니다.
+&lt;img src=&quot;assets/built/images/markdown-sample.jpg&quot; alt=&quot;마크다운샘플&quot; /&gt;
+화면 왼쪽이 작성된 마크다운 코드이고, 오른쪽이 서식이 적용된 HTML 결과 입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/markdown/markdown.github.com/wiki/Implementations&quot;&gt;마크다운 파서의 구현체&lt;/a&gt; 는 굉장히 다양하게 존재하는데, 
+구현체 마다 표현법이 다양하기 때문에, 내 맘에 잘 맞는 구현체를 고르기 위해서 &lt;a href=&quot;https://babelmark.github.io/&quot;&gt;babelmark3&lt;/a&gt; 에서 테스트를 
+해보는 방법을 추천 드립니다. babelmark3 에서는 같은 마크업 코드를 서로 다른 구현체에서 어떻게 표현해 주는지 한번에 출력을 해주기 때문에 
+유용하게 활용할 수 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;commonmark&quot;&gt;CommonMark&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://commonmark.org/&quot;&gt;CommonMark&lt;/a&gt; 는 서로다른 기능오로 구현된 마크다운의 표준 문법을 정의하는 프로젝트입니다. 
+CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크다운이 탄생하였으며 Kramdown 또한 하나의 구현체 입니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;kramdown&quot;&gt;Kramdown&lt;/h3&gt;
+&lt;p&gt;최근 많은 개발자들이 &lt;code class=&quot;highlighter-rouge&quot;&gt;아이디.github.io&lt;/code&gt; 주소를 가지는 블로그 사이트를 운영하는 추세입니다. 바로 &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; 를 
+이용한 블로그 운영을 하는 것 인데요, GitHub Pages 는 &lt;a href=&quot;https://jamstack.org/generators/&quot;&gt;Static Page Generator&lt;/a&gt; 를 기반으로 
+생성된 정적 웹페이지를, GitHub 기반으로 호스팅하는 방식의 블로그 입니다.&lt;/p&gt;
+
+&lt;p&gt;수 많은 &lt;a href=&quot;https://jamstack.org/generators/&quot;&gt;Static Page Generator&lt;/a&gt; 중에서, GitHub 의 CEO 가 만든 생성기인 지킬(Jekyll) 은 가장
+인기있는 생성기 중 하나이며, 이 지킬 내에서 지원하는 마크다운이 바로 Kramdown 입니다. 때문에, &lt;code class=&quot;highlighter-rouge&quot;&gt;아이디.github.io&lt;/code&gt; 의 블로그를 운영하고
+싶다면 Kramdown 의 사용법을 알아두셔야 하겠습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;마크다운kramdown-사용법&quot;&gt;마크다운(Kramdown) 사용법&lt;/h2&gt;
+&lt;p&gt;크램다운 홈페이지의 레퍼런스 문서에 정리된 내용을 바탕으로 사용법을 아래와 같이 정리해 보았습니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;제목header&quot;&gt;제목(Header)&lt;/h2&gt;
-&lt;p&gt;제목의 크기를 &amp;lt;h1&amp;gt; 부터 &amp;lt;h6&amp;gt; 까지 6단계의 크기로 표현할 수 있습니다.&lt;/p&gt;
 
-&lt;h1 id=&quot;제목-1&quot;&gt;제목 1&lt;/h1&gt;
-&lt;h2 id=&quot;제목-2&quot;&gt;제목 2&lt;/h2&gt;
-&lt;h3 id=&quot;제목-3&quot;&gt;제목 3&lt;/h3&gt;
-&lt;h4 id=&quot;제목-4&quot;&gt;제목 4&lt;/h4&gt;
-&lt;h5 id=&quot;제목-5&quot;&gt;제목 5&lt;/h5&gt;
-&lt;h6 id=&quot;제목-6&quot;&gt;제목 6&lt;/h6&gt;</content><author><name>Taehui Hong</name></author><category term="tips" /><summary type="html">마크다운을 사용하는 것에 익숙해지면, 보다 컨텐츠 내용에 집중하여 빠르게 문서 작성을 해 나갈 수 있습니다. 예제를 통해서 마크다운 사용법을 알아보도록 할께요~</summary></entry><entry><title type="html">Python 강좌(1) - Python 기본</title><link href="https://taehui.github.io/platform-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" /><published>2020-01-21T01:40:00+09:00</published><updated>2020-01-21T01:40:00+09:00</updated><id>https://taehui.github.io/platform-basic</id><content type="html" xml:base="https://taehui.github.io/platform-basic">&lt;p&gt;이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.&lt;/p&gt;</content><author><name>Taehui Hong</name></author><category term="tips" /><summary type="html">이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.</summary></entry><entry><title type="html">아파치 하둡(2강) - 하둡의 성장</title><link href="https://taehui.github.io/hadoop-2" rel="alternate" type="text/html" title="아파치 하둡(2강) - 하둡의 성장" /><published>2020-01-21T01:40:00+09:00</published><updated>2020-01-21T01:40:00+09:00</updated><id>https://taehui.github.io/hadoop-2</id><content type="html" xml:base="https://taehui.github.io/hadoop-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;제목1&quot;&gt;제목1&lt;/h1&gt;
+&lt;h2 id=&quot;제목2&quot;&gt;제목2&lt;/h2&gt;
+&lt;h3 id=&quot;제목3&quot;&gt;제목3&lt;/h3&gt;
+&lt;h4 id=&quot;제목4&quot;&gt;제목4&lt;/h4&gt;
+&lt;h5 id=&quot;제목5&quot;&gt;제목5&lt;/h5&gt;
+&lt;h6 id=&quot;제목6&quot;&gt;제목6&lt;/h6&gt;</content><author><name>Taehui Hong</name></author><category term="tips" /><summary type="html">마크다운은 사람들이 읽기 쉽고 쓰기 쉬운 플레인 텍스트 포맷을 사용하여, 서식이 있는 문서를 작성하기 위해 만들어진 마크업 언어입니다. 2004년 존 그루버가 RSS 1.0 의 공저자인 애런 스워츠와 협업을 통해 만들었으며, 아래 이미지를 보시면 보다 쉽게 이해가 됩니다. 화면 왼쪽이 작성된 마크다운 코드이고, 오른쪽이 서식이 적용된 HTML 결과 입니다.</summary></entry><entry><title type="html">Python 강좌(1) - Python 기본</title><link href="https://taehui.github.io/platform-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" /><published>2020-01-21T01:40:00+09:00</published><updated>2020-01-21T01:40:00+09:00</updated><id>https://taehui.github.io/platform-basic</id><content type="html" xml:base="https://taehui.github.io/platform-basic">&lt;p&gt;이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.&lt;/p&gt;</content><author><name>Taehui Hong</name></author><category term="tips" /><summary type="html">이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.</summary></entry><entry><title type="html">아파치 하둡(2강) - 하둡의 성장</title><link href="https://taehui.github.io/hadoop-2" rel="alternate" type="text/html" title="아파치 하둡(2강) - 하둡의 성장" /><published>2020-01-21T01:40:00+09:00</published><updated>2020-01-21T01:40:00+09:00</updated><id>https://taehui.github.io/hadoop-2</id><content type="html" xml:base="https://taehui.github.io/hadoop-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;데이터 엔지니어를 위한 하둡(2강) - 하둡의 성장&lt;/a&gt;&lt;/li&gt;
