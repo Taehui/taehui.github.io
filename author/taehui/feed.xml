@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://taehui.github.io/author/taehui/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://taehui.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-01-26T13:52:12+09:00</updated>
+  <updated>2021-01-26T13:53:57+09:00</updated>
   <id>https://taehui.github.io/author/taehui/feed.xml</id>
 
   
@@ -63,14 +63,7 @@ CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크�
 &lt;h2 id=&quot;마크다운kramdown-사용법&quot;&gt;마크다운(Kramdown) 사용법&lt;/h2&gt;
 &lt;p&gt;크램다운 홈페이지의 레퍼런스 문서에 정리된 내용을 바탕으로 사용법을 아래와 같이 정리해 보았습니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;제목header&quot;&gt;제목(Header)&lt;/h2&gt;
-
-&lt;h1 id=&quot;제목1&quot;&gt;제목1&lt;/h1&gt;
-&lt;h2 id=&quot;제목2&quot;&gt;제목2&lt;/h2&gt;
-&lt;h3 id=&quot;제목3&quot;&gt;제목3&lt;/h3&gt;
-&lt;h4 id=&quot;제목4&quot;&gt;제목4&lt;/h4&gt;
-&lt;h5 id=&quot;제목5&quot;&gt;제목5&lt;/h5&gt;
-&lt;h6 id=&quot;제목6&quot;&gt;제목6&lt;/h6&gt;</content>
+&lt;h2 id=&quot;제목header&quot;&gt;제목(Header)&lt;/h2&gt;</content>
 
       
       
