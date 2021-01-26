@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://taehui.github.io/author/taehui/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://taehui.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-01-26T14:11:01+09:00</updated>
+  <updated>2021-01-26T15:57:02+09:00</updated>
   <id>https://taehui.github.io/author/taehui/feed.xml</id>
 
   
@@ -503,8 +503,8 @@ public class KoreanAnalyzer extends StopwordAnalyzerBase {
     </entry>
   
     <entry>
-      <title type="html">Python 강좌(1) - Python 기본</title>
-      <link href="https://taehui.github.io/cloud-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
+      <title type="html">AWS</title>
+      <link href="https://taehui.github.io/cloud-basic" rel="alternate" type="text/html" title="AWS" />
       <published>2020-01-21T01:40:00+09:00</published>
       <updated>2020-01-21T01:40:00+09:00</updated>
       <id>https://taehui.github.io/cloud-basic</id>
