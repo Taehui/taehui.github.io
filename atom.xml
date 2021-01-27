@@ -40,12 +40,108 @@
     
       
       <item>
-        <title>아파치 하둡(2강) - 하둡의 성장</title>
+        <title>하둡 입문(6강) - 하둡 활용</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;데이터 엔지니어를 위한 하둡(2강) - 하둡의 성장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 21 Jan 2020 01:40:00 +0900</pubDate>
+        <link>
+        https://taehui.github.io/hadoop-6</link>
+        <guid isPermaLink="true">https://taehui.github.io/hadoop-6</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>하둡 입문(5강) - 하둡 맵리듀스</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 21 Jan 2020 01:40:00 +0900</pubDate>
+        <link>
+        https://taehui.github.io/hadoop-5</link>
+        <guid isPermaLink="true">https://taehui.github.io/hadoop-5</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>하둡 입문(4강) - 하둡 분산파일시스템 이해2</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 21 Jan 2020 01:40:00 +0900</pubDate>
+        <link>
+        https://taehui.github.io/hadoop-4</link>
+        <guid isPermaLink="true">https://taehui.github.io/hadoop-4</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>하둡 입문(3강) - 하둡 분산파일시스템 이해1</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 21 Jan 2020 01:40:00 +0900</pubDate>
+        <link>
+        https://taehui.github.io/hadoop-3</link>
+        <guid isPermaLink="true">https://taehui.github.io/hadoop-3</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>하둡 입문(2강) - 하둡 설치</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -73,12 +169,16 @@
     
       
       <item>
-        <title>아파치 하둡(1강) - 하둡의 탄생</title>
+        <title>하둡 입문(1강) - 하둡의 탄생과 생태계의 활용</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;데이터 엔지니어를 위한 하둡(2강) - 하둡의 성장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>

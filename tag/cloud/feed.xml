@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="https://taehui.github.io/tag/language/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://taehui.github.io/tag/cloud/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://taehui.github.io/" rel="alternate" type="text/html" />
   <updated>2021-01-27T09:25:35+09:00</updated>
-  <id>https://taehui.github.io/tag/language/feed.xml</id>
+  <id>https://taehui.github.io/tag/cloud/feed.xml</id>
 
   
   
@@ -32,12 +32,12 @@
 
   
     <entry>
-      <title type="html">Python 강좌(1) - Python 기본</title>
-      <link href="https://taehui.github.io/language-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
+      <title type="html">AWS</title>
+      <link href="https://taehui.github.io/cloud-basic" rel="alternate" type="text/html" title="AWS" />
       <published>2020-01-21T01:40:00+09:00</published>
       <updated>2020-01-21T01:40:00+09:00</updated>
-      <id>https://taehui.github.io/language-basic</id>
-      <content type="html" xml:base="https://taehui.github.io/language-basic">&lt;p&gt;이 글은 깃페이지 언어 관련 포스팅을 위한 템플릿 코드 입니다.&lt;/p&gt;</content>
+      <id>https://taehui.github.io/cloud-basic</id>
+      <content type="html" xml:base="https://taehui.github.io/cloud-basic">&lt;p&gt;이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.&lt;/p&gt;</content>
 
       
       
@@ -54,11 +54,11 @@
       
 
       
-        <category term="language" />
+        <category term="cloud" />
       
 
       
-        <summary type="html">이 글은 깃페이지 언어 관련 포스팅을 위한 템플릿 코드 입니다.</summary>
+        <summary type="html">이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.</summary>
       
 
       

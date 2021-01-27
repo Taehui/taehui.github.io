@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://taehui.github.io/author/taehui/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://taehui.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-01-26T18:21:30+09:00</updated>
+  <updated>2021-01-27T09:25:35+09:00</updated>
   <id>https://taehui.github.io/author/taehui/feed.xml</id>
 
   
@@ -94,381 +94,6 @@ CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크�
     </entry>
   
     <entry>
-      <title type="html">아파치 하둡(1강) - 하둡의 탄생</title>
-      <link href="https://taehui.github.io/hadoop-1" rel="alternate" type="text/html" title="아파치 하둡(1강) - 하둡의 탄생" />
-      <published>2020-01-21T01:40:00+09:00</published>
-      <updated>2020-01-21T01:40:00+09:00</updated>
-      <id>https://taehui.github.io/hadoop-1</id>
-      <content type="html" xml:base="https://taehui.github.io/hadoop-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;데이터 엔지니어를 위한 하둡(2강) - 하둡의 성장&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;하둡의-탄생&quot;&gt;하둡의 탄생&lt;/h1&gt;
-&lt;h2 id=&quot;하둡의-탄생-1&quot;&gt;하둡의 탄생&lt;/h2&gt;
-&lt;h3 id=&quot;하둡의-탄생-2&quot;&gt;하둡의 탄생&lt;/h3&gt;
-&lt;p&gt;테스트&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;인용문 테스트&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;값&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;의미&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;기본값&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;유형(기준) 없음 / 배치 불가능&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;relative&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;요소 자신을 기준으로 배치&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;absolute&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;위치 상 부모(조상)요소를 기준으로 배치&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fixed&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;브라우저 창을 기준으로 배치&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;값&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;의미&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;기본값&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;유형(기준) 없음 / 배치 불가능&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;static&lt;/code&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;relative&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;요소 &lt;strong&gt;자신&lt;/strong&gt;을 기준으로 배치&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;absolute&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;위치 상 &lt;strong&gt;&lt;em&gt;부모&lt;/em&gt;(조상)요소&lt;/strong&gt;를 기준으로 배치&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fixed&lt;/code&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;브라우저 창&lt;/strong&gt;을 기준으로 배치&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Systax Highlighting Test&lt;/p&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;syntaxHighlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Hello World'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;noscript&gt;&lt;pre&gt;package org.apache.lucene.analysis.ko;
-
-/*
- * Licensed to the Apache Software Foundation (ASF) under one or more
- * contributor license agreements.  See the NOTICE file distributed with
- * this work for additional information regarding copyright ownership.
- * The ASF licenses this file to You under the Apache License, Version 2.0
- * (the &amp;quot;License&amp;quot;); you may not use this file except in compliance with
- * the License.  You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an &amp;quot;AS IS&amp;quot; BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-import java.io.IOException;
-import java.io.Reader;
-import java.util.Arrays;
-import java.util.List;
-
-import org.apache.lucene.analysis.CharArraySet;
-import org.apache.lucene.analysis.LowerCaseFilter;
-import org.apache.lucene.analysis.StopFilter;
-import org.apache.lucene.analysis.StopwordAnalyzerBase;
-import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.standard.ClassicFilter;
-
-/**
- * A Korean Analyzer
- */
-public class KoreanAnalyzer extends StopwordAnalyzerBase {
-  
-  /** An unmodifiable set containing some common English words that are not usually useful
-  for searching.*/
-  public static final CharArraySet ENGLISH_STOP_WORDS_SET;
-  
-  static {
-    final List&amp;lt;String&amp;gt; stopWords = Arrays.asList(
-      &amp;quot;a&amp;quot;, &amp;quot;an&amp;quot;, &amp;quot;and&amp;quot;, &amp;quot;are&amp;quot;, &amp;quot;as&amp;quot;, &amp;quot;at&amp;quot;, &amp;quot;be&amp;quot;, &amp;quot;but&amp;quot;, &amp;quot;by&amp;quot;,
-      &amp;quot;for&amp;quot;, &amp;quot;if&amp;quot;, &amp;quot;in&amp;quot;, &amp;quot;into&amp;quot;, &amp;quot;is&amp;quot;, &amp;quot;it&amp;quot;,
-      &amp;quot;no&amp;quot;, &amp;quot;not&amp;quot;, &amp;quot;of&amp;quot;, &amp;quot;on&amp;quot;, &amp;quot;or&amp;quot;, &amp;quot;such&amp;quot;,
-      &amp;quot;that&amp;quot;, &amp;quot;the&amp;quot;, &amp;quot;their&amp;quot;, &amp;quot;then&amp;quot;, &amp;quot;there&amp;quot;, &amp;quot;these&amp;quot;,
-      &amp;quot;they&amp;quot;, &amp;quot;this&amp;quot;, &amp;quot;to&amp;quot;, &amp;quot;was&amp;quot;, &amp;quot;will&amp;quot;, &amp;quot;with&amp;quot;
-    );
-    final CharArraySet stopSet = new CharArraySet(stopWords, false);
-    ENGLISH_STOP_WORDS_SET = CharArraySet.unmodifiableSet(stopSet); 
-  }
-
-  private boolean bigrammable = false;
-    
-  private boolean hasOrigin = false;
-    
-  private boolean exactMatch = false;
-  private boolean originCNoun = true;
-  private boolean queryMode = false;
-  private boolean wordSegment = false;
-  private boolean decompound = true;
-  
-  public KoreanAnalyzer() {
-	  this(ENGLISH_STOP_WORDS_SET);
-  }
-  
-  /** Builds an analyzer with the stop words from the given set.
-   * @param stopWords Set of stop words */
-  public KoreanAnalyzer(CharArraySet stopWords) {
-    super(stopWords);
-  }
-  
-  @Override
-  protected TokenStreamComponents createComponents(final String fieldName) {
-    final KoreanTokenizer src = new KoreanTokenizer();
-    TokenStream tok = new LowerCaseFilter(src);
-    tok = new ClassicFilter(tok);
-    tok = new KoreanFilter(tok, bigrammable, hasOrigin, exactMatch, originCNoun, queryMode, decompound);
-    if(wordSegment) tok = new WordSegmentFilter(tok, hasOrigin);
-    tok = new HanjaMappingFilter(tok);
-    tok = new PunctuationDelimitFilter(tok);
-    tok = new StopFilter(tok, stopwords);
-    
-    return new TokenStreamComponents(src, tok) {
-      @Override
-      protected void setReader(final Reader reader)  {
-        super.setReader(reader);
-      }
-    };
-	    
-  }
-    
-  /**
-   * determine whether the bigram index term is returned or not if a input word is failed to analysis
-   * If true is set, the bigram index term is returned. If false is set, the bigram index term is not returned.
-   */
-  public void setBigrammable(boolean is) {
-    bigrammable = is;
-  }
-  
-  /**
-   * determin whether the original term is returned or not if a input word is analyzed morphically.
-   */
-  public void setHasOrigin(boolean has) {
-    hasOrigin = has;
-  }
-
-  /**
-   * determin whether the original compound noun is returned or not if a input word is analyzed morphically.
-   */
-  public void setOriginCNoun(boolean cnoun) {
-    originCNoun = cnoun;
-  }
-  
-  /**
-   * determin whether the original compound noun is returned or not if a input word is analyzed morphically.
-   */
-  public void setExactMatch(boolean exact) {
-    exactMatch = exact;
-  }
-  
-  /**
-   * determin whether the analyzer is running for a query processing
-   */
-  public void setQueryMode(boolean mode) {
-    queryMode = mode;
-  }
-
-  public void setDecompound(boolean is) {
-	  this.decompound = is;
-  }
-  
-  /**
-   * determin whether word segment analyzer is processing
-   */
-	public boolean isWordSegment() {
-		return wordSegment;
-	}
-	
-	public void setWordSegment(boolean wordSegment) {
-		this.wordSegment = wordSegment;
-	}
-  
-}
-&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/Taehui/043bc4440632995e27c87a28d81e5cd7.js&quot;&gt; &lt;/script&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Taehui Hong</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="platform" />
-      
-
-      
-        <summary type="html">데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생 데이터 엔지니어를 위한 하둡(2강) - 하둡의 성장</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Python 강좌(1) - Python 기본</title>
-      <link href="https://taehui.github.io/platform-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
-      <published>2020-01-21T01:40:00+09:00</published>
-      <updated>2020-01-21T01:40:00+09:00</updated>
-      <id>https://taehui.github.io/platform-basic</id>
-      <content type="html" xml:base="https://taehui.github.io/platform-basic">&lt;p&gt;이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Taehui Hong</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="platform" />
-      
-
-      
-        <summary type="html">이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">아파치 하둡(2강) - 하둡의 성장</title>
-      <link href="https://taehui.github.io/hadoop-2" rel="alternate" type="text/html" title="아파치 하둡(2강) - 하둡의 성장" />
-      <published>2020-01-21T01:40:00+09:00</published>
-      <updated>2020-01-21T01:40:00+09:00</updated>
-      <id>https://taehui.github.io/hadoop-2</id>
-      <content type="html" xml:base="https://taehui.github.io/hadoop-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;데이터 엔지니어를 위한 하둡(2강) - 하둡의 성장&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;테스트…&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Taehui Hong</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="platform" />
-      
-
-      
-        <summary type="html">데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 데이터 엔지니어를 위한 하둡(1강) - 하둡의 탄생 데이터 엔지니어를 위한 하둡(2강) - 하둡의 성장</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Python 강좌(1) - Python 기본</title>
-      <link href="https://taehui.github.io/platform-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
-      <published>2020-01-21T01:40:00+09:00</published>
-      <updated>2020-01-21T01:40:00+09:00</updated>
-      <id>https://taehui.github.io/platform-basic</id>
-      <content type="html" xml:base="https://taehui.github.io/platform-basic">&lt;p&gt;이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Taehui Hong</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="tips" />
-      
-
-      
-        <summary type="html">이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">Python 강좌(1) - Python 기본</title>
       <link href="https://taehui.github.io/language-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
       <published>2020-01-21T01:40:00+09:00</published>
@@ -503,12 +128,24 @@ public class KoreanAnalyzer extends StopwordAnalyzerBase {
     </entry>
   
     <entry>
-      <title type="html">AWS</title>
-      <link href="https://taehui.github.io/cloud-basic" rel="alternate" type="text/html" title="AWS" />
+      <title type="html">하둡 입문(1강) - 하둡의 탄생과 생태계의 활용</title>
+      <link href="https://taehui.github.io/hadoop-1" rel="alternate" type="text/html" title="하둡 입문(1강) - 하둡의 탄생과 생태계의 활용" />
       <published>2020-01-21T01:40:00+09:00</published>
       <updated>2020-01-21T01:40:00+09:00</updated>
-      <id>https://taehui.github.io/cloud-basic</id>
-      <content type="html" xml:base="https://taehui.github.io/cloud-basic">&lt;p&gt;이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.&lt;/p&gt;</content>
+      <id>https://taehui.github.io/hadoop-1</id>
+      <content type="html" xml:base="https://taehui.github.io/hadoop-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;하둡의-탄생과-생태계의-활용동영상-강의&quot;&gt;하둡의 탄생과 생태계의 활용(동영상 강의)&lt;/h2&gt;
+
+&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/r9i4fJH6kQ0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
 
       
       
@@ -525,7 +162,305 @@ public class KoreanAnalyzer extends StopwordAnalyzerBase {
       
 
       
-        <category term="cloud" />
+        <category term="platform" />
+      
+
+      
+        <summary type="html">데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 하둡 입문(1강) - 하둡의 탄생과 생태계의 활용 하둡 입문(2강) - 하둡 설치 하둡 입문(3강) - 하둡 분산파일시스템 이해1 하둡 입문(4강) - 하둡 분산파일시스템 이해2 하둡 입문(5강) - 하둡 맵리듀스 하둡 입문(5강) - 하둡 활용</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Python 강좌(1) - Python 기본</title>
+      <link href="https://taehui.github.io/platform-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
+      <published>2020-01-21T01:40:00+09:00</published>
+      <updated>2020-01-21T01:40:00+09:00</updated>
+      <id>https://taehui.github.io/platform-basic</id>
+      <content type="html" xml:base="https://taehui.github.io/platform-basic">&lt;p&gt;이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Taehui Hong</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="platform" />
+      
+
+      
+        <summary type="html">이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">하둡 입문(2강) - 하둡 설치</title>
+      <link href="https://taehui.github.io/hadoop-2" rel="alternate" type="text/html" title="하둡 입문(2강) - 하둡 설치" />
+      <published>2020-01-21T01:40:00+09:00</published>
+      <updated>2020-01-21T01:40:00+09:00</updated>
+      <id>https://taehui.github.io/hadoop-2</id>
+      <content type="html" xml:base="https://taehui.github.io/hadoop-2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;하둡-설치동영상-강의&quot;&gt;하둡 설치(동영상 강의)&lt;/h2&gt;
+
+&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/JuC9IJJ97DI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Taehui Hong</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="platform" />
+      
+
+      
+        <summary type="html">데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 하둡 입문(1강) - 하둡의 탄생과 생태계의 활용 하둡 입문(2강) - 하둡 설치 하둡 입문(3강) - 하둡 분산파일시스템 이해1 하둡 입문(4강) - 하둡 분산파일시스템 이해2 하둡 입문(5강) - 하둡 맵리듀스 하둡 입문(5강) - 하둡 활용</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">하둡 입문(3강) - 하둡 분산파일시스템 이해1</title>
+      <link href="https://taehui.github.io/hadoop-3" rel="alternate" type="text/html" title="하둡 입문(3강) - 하둡 분산파일시스템 이해1" />
+      <published>2020-01-21T01:40:00+09:00</published>
+      <updated>2020-01-21T01:40:00+09:00</updated>
+      <id>https://taehui.github.io/hadoop-3</id>
+      <content type="html" xml:base="https://taehui.github.io/hadoop-3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;하둡-분산파일시스템-이해1동영상-강의&quot;&gt;하둡 분산파일시스템 이해1(동영상 강의)&lt;/h2&gt;
+
+&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/T6lng0734sc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Taehui Hong</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="platform" />
+      
+
+      
+        <summary type="html">데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 하둡 입문(1강) - 하둡의 탄생과 생태계의 활용 하둡 입문(2강) - 하둡 설치 하둡 입문(3강) - 하둡 분산파일시스템 이해1 하둡 입문(4강) - 하둡 분산파일시스템 이해2 하둡 입문(5강) - 하둡 맵리듀스 하둡 입문(5강) - 하둡 활용</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">하둡 입문(4강) - 하둡 분산파일시스템 이해2</title>
+      <link href="https://taehui.github.io/hadoop-4" rel="alternate" type="text/html" title="하둡 입문(4강) - 하둡 분산파일시스템 이해2" />
+      <published>2020-01-21T01:40:00+09:00</published>
+      <updated>2020-01-21T01:40:00+09:00</updated>
+      <id>https://taehui.github.io/hadoop-4</id>
+      <content type="html" xml:base="https://taehui.github.io/hadoop-4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;하둡-분산파일시스템-이해2동영상-강의&quot;&gt;하둡 분산파일시스템 이해2(동영상 강의)&lt;/h2&gt;
+
+&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/J7IV9vkSUtU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Taehui Hong</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="platform" />
+      
+
+      
+        <summary type="html">데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 하둡 입문(1강) - 하둡의 탄생과 생태계의 활용 하둡 입문(2강) - 하둡 설치 하둡 입문(3강) - 하둡 분산파일시스템 이해1 하둡 입문(4강) - 하둡 분산파일시스템 이해2 하둡 입문(5강) - 하둡 맵리듀스 하둡 입문(5강) - 하둡 활용</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">하둡 입문(5강) - 하둡 맵리듀스</title>
+      <link href="https://taehui.github.io/hadoop-5" rel="alternate" type="text/html" title="하둡 입문(5강) - 하둡 맵리듀스" />
+      <published>2020-01-21T01:40:00+09:00</published>
+      <updated>2020-01-21T01:40:00+09:00</updated>
+      <id>https://taehui.github.io/hadoop-5</id>
+      <content type="html" xml:base="https://taehui.github.io/hadoop-5">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;하둡-맵리듀스동영상-강의&quot;&gt;하둡 맵리듀스(동영상 강의)&lt;/h2&gt;
+
+&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/vNKNzl_wdDc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Taehui Hong</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="platform" />
+      
+
+      
+        <summary type="html">데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 하둡 입문(1강) - 하둡의 탄생과 생태계의 활용 하둡 입문(2강) - 하둡 설치 하둡 입문(3강) - 하둡 분산파일시스템 이해1 하둡 입문(4강) - 하둡 분산파일시스템 이해2 하둡 입문(5강) - 하둡 맵리듀스 하둡 입문(5강) - 하둡 활용</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">하둡 입문(6강) - 하둡 활용</title>
+      <link href="https://taehui.github.io/hadoop-6" rel="alternate" type="text/html" title="하둡 입문(6강) - 하둡 활용" />
+      <published>2020-01-21T01:40:00+09:00</published>
+      <updated>2020-01-21T01:40:00+09:00</updated>
+      <id>https://taehui.github.io/hadoop-6</id>
+      <content type="html" xml:base="https://taehui.github.io/hadoop-6">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;하둡-활용동영상-강의&quot;&gt;하둡 활용(동영상 강의)&lt;/h2&gt;
+
+&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/Tc0_Mkt6QZs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Taehui Hong</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="platform" />
+      
+
+      
+        <summary type="html">데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 하둡 입문(1강) - 하둡의 탄생과 생태계의 활용 하둡 입문(2강) - 하둡 설치 하둡 입문(3강) - 하둡 분산파일시스템 이해1 하둡 입문(4강) - 하둡 분산파일시스템 이해2 하둡 입문(5강) - 하둡 맵리듀스 하둡 입문(5강) - 하둡 활용</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Python 강좌(1) - Python 기본</title>
+      <link href="https://taehui.github.io/platform-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
+      <published>2020-01-21T01:40:00+09:00</published>
+      <updated>2020-01-21T01:40:00+09:00</updated>
+      <id>https://taehui.github.io/platform-basic</id>
+      <content type="html" xml:base="https://taehui.github.io/platform-basic">&lt;p&gt;이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Taehui Hong</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="tips" />
       
 
       
