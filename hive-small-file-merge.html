@@ -60,7 +60,7 @@
     <meta property="og:site_name" content="코딩하는 할배" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Hive 사용 시 Small File Merge 방법" />
-    <meta property="og:description" content="하이브 설정을 통한 병합 관련 설정 4가지 중에서, * hive.merge.mapfiles -- Merge small files at the end of a map-only job. * hive.merge.mapredfiles -- Merge small files at the end of a map-reduce job. * hive.merge.size.per.task -- Size of merged files at the end of the job. * hive.merge.smallfiles.avgsize --" />
+    <meta property="og:description" content="하이브 설정을 통한 병합 관련 설정 4가지 중에서, hive.merge.mapfiles – Merge small files at the end of a map-only job. hive.merge.mapredfiles – Merge small files at the end of a map-reduce job. hive.merge.size.per.task – Size of merged files at the end of the job. hive.merge.smallfiles.avgsize – When the average output" />
     <meta property="og:url" content="https://taehui.github.io/hive-small-file-merge" />
     <meta property="og:image" content="https://taehui.github.io/assets/built/images/hive-logo.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -70,7 +70,7 @@
     <meta property="article:tag" content="Platform" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Hive 사용 시 Small File Merge 방법" />
-    <meta name="twitter:description" content="하이브 설정을 통한 병합 관련 설정 4가지 중에서, * hive.merge.mapfiles -- Merge small files at the end of a map-only job. * hive.merge.mapredfiles -- Merge small files at the end of a map-reduce job. * hive.merge.size.per.task -- Size of merged files at the end of the job. * hive.merge.smallfiles.avgsize --" />
+    <meta name="twitter:description" content="하이브 설정을 통한 병합 관련 설정 4가지 중에서, hive.merge.mapfiles – Merge small files at the end of a map-only job. hive.merge.mapredfiles – Merge small files at the end of a map-reduce job. hive.merge.size.per.task – Size of merged files at the end of the job. hive.merge.smallfiles.avgsize – When the average output" />
     <meta name="twitter:url" content="https://taehui.github.io/" />
     <meta name="twitter:image" content="https://taehui.github.io/assets/built/images/hive-logo.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -102,7 +102,7 @@
         "@type": "WebPage",
         "@id": "https://taehui.github.io/hive-small-file-merge"
     },
-    "description": "하이브 설정을 통한 병합 관련 설정 4가지 중에서, * hive.merge.mapfiles -- Merge small files at the end of a map-only job. * hive.merge.mapredfiles -- Merge small files at the end of a map-reduce job. * hive.merge.size.per.task -- Size of merged files at the end of the job. * hive.merge.smallfiles.avgsize --"
+    "description": "하이브 설정을 통한 병합 관련 설정 4가지 중에서, hive.merge.mapfiles – Merge small files at the end of a map-only job. hive.merge.mapredfiles – Merge small files at the end of a map-reduce job. hive.merge.size.per.task – Size of merged files at the end of the job. hive.merge.smallfiles.avgsize – When the average output"
 }
     </script>
 
@@ -201,11 +201,13 @@ into the {body} of the default.hbs template -->
                 <div class="kg-card-markdown">
                     <h2 id="하이브-설정을-통한-병합">하이브 설정을 통한 병합</h2>
 <p>관련 설정 4가지 중에서,</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* hive.merge.mapfiles -- Merge small files at the end of a map-only job.
-* hive.merge.mapredfiles -- Merge small files at the end of a map-reduce job.
-* hive.merge.size.per.task -- Size of merged files at the end of the job.
-* hive.merge.smallfiles.avgsize -- When the average output file size of a job is less than this number, Hive will start an additional map-reduce job to merge the output files into bigger files. This is only done for map-only jobs if hive.merge.mapfiles is true, and for map-reduce jobs if hive.merge.mapredfiles is true.
-</code></pre></div></div>
+
+<ul>
+  <li>hive.merge.mapfiles – Merge small files at the end of a map-only job.</li>
+  <li>hive.merge.mapredfiles – Merge small files at the end of a map-reduce job.</li>
+  <li>hive.merge.size.per.task – Size of merged files at the end of the job.</li>
+  <li>hive.merge.smallfiles.avgsize – When the average output file size of a job is less than this number, Hive will start an additional map-reduce job to merge the output files into bigger files. This is only done for map-only jobs if hive.merge.mapfiles is true, and for map-reduce jobs if hive.merge.mapredfiles is true.</li>
+</ul>
 
 <p>아래와 같이, 기본값이 false 인 hive.merge.mapredfiles 값을 True 로 설정, 나머지 설정의 
 기본값은 아래를 참조하여 원하는 값으로 변경</p>

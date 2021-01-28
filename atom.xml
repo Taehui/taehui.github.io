@@ -12,11 +12,6 @@
         
           <description>&lt;h2 id=&quot;하이브-설정을-통한-병합&quot;&gt;하이브 설정을 통한 병합&lt;/h2&gt;
 &lt;p&gt;관련 설정 4가지 중에서,&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* hive.merge.mapfiles -- Merge small files at the end of a map-only job.
-* hive.merge.mapredfiles -- Merge small files at the end of a map-reduce job.
-* hive.merge.size.per.task -- Size of merged files at the end of the job.
-* hive.merge.smallfiles.avgsize -- When the average output file size of a job is less than this number, Hive will start an additional map-reduce job to merge the output files into bigger files. This is only done for map-only jobs if hive.merge.mapfiles is true, and for map-reduce jobs if hive.merge.mapredfiles is true.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 </description>
         
