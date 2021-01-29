@@ -210,7 +210,7 @@ into the {body} of the default.hbs template -->
 유용하게 활용할 수 있습니다.</p>
 
 <h3 id="commonmark">CommonMark</h3>
-<p><a href="https://commonmark.org/">CommonMark</a> 는 서로다른 기능오로 구현된 마크다운의 표준 문법을 정의하는 프로젝트입니다. 
+<p><a href="https://commonmark.org/">CommonMark</a> 는 서로다른 기능으로 구현된 마크다운의 표준 문법을 정의하는 프로젝트입니다. 
 CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크다운이 탄생하였으며 Kramdown 또한 하나의 구현체 입니다.</p>
 
 <h3 id="kramdown">Kramdown</h3>
@@ -225,9 +225,78 @@ CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크�
 <h2 id="마크다운kramdown-사용법">마크다운(Kramdown) 사용법</h2>
 <p>크램다운 홈페이지의 레퍼런스 문서에 정리된 내용을 바탕으로 사용법을 아래와 같이 정리해 보았습니다.</p>
 
-<h2 id="제목header">제목(Header)</h2>
+<h3 id="헤더header-표현1">헤더(Header) 표현(1)</h3>
+<p>헤더를 표현하는 첫번째 방법은, <code class="highlighter-rouge">#</code> 의 갯수를 통해 6가지 크기로 표현하는 방법이다. 아래 그림에서 왼쪽이 표현법, 오른쪽이 
+표현된 결과화면이다.</p>
 
-<p>To be updated…Soon~!!</p>
+<p><img src="assets/built/images/md-header1.png" alt="헤더표현법1" /></p>
+
+<h3 id="헤더header-표현2">헤더(Header) 표현(2)</h3>
+<p>헤더를 표현하는 두번째 방법은, 가장 자주 사용될 수 있는 H1 크기와 H2 크기를 아래와 같이 표현하는 것이다.
+<img src="assets/built/images/md-header2.png" alt="헤더표현법2" /></p>
+
+<h3 id="이탤릭italic-표현">이탤릭(Italic) 표현</h3>
+<p>이탤릭체는 <code class="highlighter-rouge">*</code> 혹은 <code class="highlighter-rouge">_</code> 를 통해 아래와 같이 두가지 방법으로 표현할 수 있다.
+<img src="assets/built/images/md-italic.png" alt="이탤릭" /></p>
+
+<h3 id="진하게bold-표현">진하게(Bold) 표현</h3>
+<p>볼드체 표현은 <code class="highlighter-rouge">**</code> 혹은 <code class="highlighter-rouge">__</code> 를 통해 아래와 같이 두가지 방법으로 표현할 수 있다.
+<img src="assets/built/images/md-bold.png" alt="진하게" /></p>
+
+<h3 id="링크link-걸기">링크(Link) 걸기</h3>
+<p><img src="assets/built/images/md-link.png" alt="링크" /></p>
+
+<h3 id="이미지image-표현">이미지(Image) 표현</h3>
+<p><img src="assets/built/images/md-image.png" alt="이미지" /></p>
+
+<h3 id="각주footnotes-표현">각주(Footnotes) 표현</h3>
+<p>각주는 선언부와 표현부를 나누어 아래와 같이 표현 가능하다.</p>
+
+<h4 id="선언부">선언부</h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>선언부 각주1[^1].  
+선언부 각주2[^2].
+</code></pre></div></div>
+<p>위와 같이 표현하면, 아래와 같이 각주로 표시된다.</p>
+
+<p>선언부 각주1<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.<br />
+선언부 각주2<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>.</p>
+
+<h4 id="표현부">표현부</h4>
+<p>각주에 대한 설명을 달기위해서는 아래와 같이 표현한다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[^1]: 각주1에 대한 설명
+[^2]: 각주2에 대한 설명
+</code></pre></div></div>
+<p>각주의 선언부를 클릭하면, 아래 표현부로 이동하게 된다.</p>
+
+<h3 id="블락인용구blockquotes-표현">블락인용구(Blockquotes) 표현</h3>
+<p><code class="highlighter-rouge">&gt;</code> 기호를 사용하여 블락인용구를 표현할 수 있다.</p>
+
+<p><img src="assets/built/images/md-blockquotes.png" alt="이미지" /></p>
+
+<h3 id="코드-블락code-block-표현1">코드 블락(Code Block) 표현(1)</h3>
+<p>띄어쓰기 4번을 통해 코드블락을 표현할 수 있다.</p>
+
+<h4 id="표현법">표현법</h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    띄어쓰기를 통한 코드블락 표현
+</code></pre></div></div>
+
+<h4 id="코드블락-적용결과">코드블락 적용결과</h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>띄어쓰기를 통한 코드블락 표현
+</code></pre></div></div>
+
+<h3 id="코드-블락code-block-표현2">코드 블락(Code Block) 표현(2)</h3>
+<p>물결무늬 감싸기를 통한 코드블락 표현도 가능하다.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>각주1에 대한 설명 <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>각주2에 대한 설명 <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
                 </div>
             </section>
@@ -319,69 +388,6 @@ CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크�
                 
                 
                 
-                    <article class="read-next-card"
-                        
-                            style="background-image: url(/assets/built/images/blog-cover.png)"
-                        
-                    >
-                        <header class="read-next-card-header">
-                            <small class="read-next-card-header-sitetitle">&mdash; 코딩하는 할배 &mdash;</small>
-                            
-                                <h3 class="read-next-card-header-title"><a href="/tag/tips/">Tips</a></h3>
-                            
-                        </header>
-                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
-</div>
-                        <div class="read-next-card-content">
-                            <ul>
-                                
-                                
-                                  
-                                
-                                  
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/platform-basic">Python 강좌(1) - Python 기본</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                            </ul>
-                        </div>
-                        <footer class="read-next-card-footer">
-                            <a href="/tag/tips/">
-                                
-                                    See all 1 posts  →
-                                
-                            </a>
-                        </footer>
-                    </article>
-                
             
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
@@ -442,22 +448,22 @@ CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크�
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/platform-basic">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/tips-logo.png)"></div>
+            <a class="post-card-image-link" href="/hadoop-6">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/platform-logo.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/platform-basic">
+            <a class="post-card-content-link" href="/hadoop-6">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Tips</span>
+                                <span class="post-card-tags">Platform</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">Python 강좌(1) - Python 기본</h2>
+                    <h2 class="post-card-title">하둡 입문(6강) - 하둡 활용</h2>
                 </header>
                 <section class="post-card-excerpt">
                     

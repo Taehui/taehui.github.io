@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://taehui.github.io/author/taehui/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://taehui.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-01-28T18:38:51+09:00</updated>
+  <updated>2021-01-29T14:45:25+09:00</updated>
   <id>https://taehui.github.io/author/taehui/feed.xml</id>
 
   
@@ -112,7 +112,7 @@
 유용하게 활용할 수 있습니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;commonmark&quot;&gt;CommonMark&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://commonmark.org/&quot;&gt;CommonMark&lt;/a&gt; 는 서로다른 기능오로 구현된 마크다운의 표준 문법을 정의하는 프로젝트입니다. 
+&lt;p&gt;&lt;a href=&quot;https://commonmark.org/&quot;&gt;CommonMark&lt;/a&gt; 는 서로다른 기능으로 구현된 마크다운의 표준 문법을 정의하는 프로젝트입니다. 
 CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크다운이 탄생하였으며 Kramdown 또한 하나의 구현체 입니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;kramdown&quot;&gt;Kramdown&lt;/h3&gt;
@@ -127,9 +127,78 @@ CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크�
 &lt;h2 id=&quot;마크다운kramdown-사용법&quot;&gt;마크다운(Kramdown) 사용법&lt;/h2&gt;
 &lt;p&gt;크램다운 홈페이지의 레퍼런스 문서에 정리된 내용을 바탕으로 사용법을 아래와 같이 정리해 보았습니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;제목header&quot;&gt;제목(Header)&lt;/h2&gt;
+&lt;h3 id=&quot;헤더header-표현1&quot;&gt;헤더(Header) 표현(1)&lt;/h3&gt;
+&lt;p&gt;헤더를 표현하는 첫번째 방법은, &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; 의 갯수를 통해 6가지 크기로 표현하는 방법이다. 아래 그림에서 왼쪽이 표현법, 오른쪽이 
+표현된 결과화면이다.&lt;/p&gt;
 
-&lt;p&gt;To be updated…Soon~!!&lt;/p&gt;</content>
+&lt;p&gt;&lt;img src=&quot;assets/built/images/md-header1.png&quot; alt=&quot;헤더표현법1&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;헤더header-표현2&quot;&gt;헤더(Header) 표현(2)&lt;/h3&gt;
+&lt;p&gt;헤더를 표현하는 두번째 방법은, 가장 자주 사용될 수 있는 H1 크기와 H2 크기를 아래와 같이 표현하는 것이다.
+&lt;img src=&quot;assets/built/images/md-header2.png&quot; alt=&quot;헤더표현법2&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;이탤릭italic-표현&quot;&gt;이탤릭(Italic) 표현&lt;/h3&gt;
+&lt;p&gt;이탤릭체는 &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; 혹은 &lt;code class=&quot;highlighter-rouge&quot;&gt;_&lt;/code&gt; 를 통해 아래와 같이 두가지 방법으로 표현할 수 있다.
+&lt;img src=&quot;assets/built/images/md-italic.png&quot; alt=&quot;이탤릭&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;진하게bold-표현&quot;&gt;진하게(Bold) 표현&lt;/h3&gt;
+&lt;p&gt;볼드체 표현은 &lt;code class=&quot;highlighter-rouge&quot;&gt;**&lt;/code&gt; 혹은 &lt;code class=&quot;highlighter-rouge&quot;&gt;__&lt;/code&gt; 를 통해 아래와 같이 두가지 방법으로 표현할 수 있다.
+&lt;img src=&quot;assets/built/images/md-bold.png&quot; alt=&quot;진하게&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;링크link-걸기&quot;&gt;링크(Link) 걸기&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/images/md-link.png&quot; alt=&quot;링크&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;이미지image-표현&quot;&gt;이미지(Image) 표현&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;assets/built/images/md-image.png&quot; alt=&quot;이미지&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;각주footnotes-표현&quot;&gt;각주(Footnotes) 표현&lt;/h3&gt;
+&lt;p&gt;각주는 선언부와 표현부를 나누어 아래와 같이 표현 가능하다.&lt;/p&gt;
+
+&lt;h4 id=&quot;선언부&quot;&gt;선언부&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;선언부 각주1[^1].  
+선언부 각주2[^2].
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;위와 같이 표현하면, 아래와 같이 각주로 표시된다.&lt;/p&gt;
+
+&lt;p&gt;선언부 각주1&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;br /&gt;
+선언부 각주2&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;표현부&quot;&gt;표현부&lt;/h4&gt;
+&lt;p&gt;각주에 대한 설명을 달기위해서는 아래와 같이 표현한다.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[^1]: 각주1에 대한 설명
+[^2]: 각주2에 대한 설명
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;각주의 선언부를 클릭하면, 아래 표현부로 이동하게 된다.&lt;/p&gt;
+
+&lt;h3 id=&quot;블락인용구blockquotes-표현&quot;&gt;블락인용구(Blockquotes) 표현&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; 기호를 사용하여 블락인용구를 표현할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/built/images/md-blockquotes.png&quot; alt=&quot;이미지&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;코드-블락code-block-표현1&quot;&gt;코드 블락(Code Block) 표현(1)&lt;/h3&gt;
+&lt;p&gt;띄어쓰기 4번을 통해 코드블락을 표현할 수 있다.&lt;/p&gt;
+
+&lt;h4 id=&quot;표현법&quot;&gt;표현법&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    띄어쓰기를 통한 코드블락 표현
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;코드블락-적용결과&quot;&gt;코드블락 적용결과&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;띄어쓰기를 통한 코드블락 표현
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;코드-블락code-block-표현2&quot;&gt;코드 블락(Code Block) 표현(2)&lt;/h3&gt;
+&lt;p&gt;물결무늬 감싸기를 통한 코드블락 표현도 가능하다.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;각주1에 대한 설명 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;각주2에 대한 설명 &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
 
       
       
@@ -151,52 +220,6 @@ CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크�
 
       
         <summary type="html">마크다운은 사람들이 읽기 쉽고 쓰기 쉬운 플레인 텍스트 포맷을 사용하여, 서식이 있는 문서를 작성하기 위해 만들어진 마크업 언어입니다. 2004년 존 그루버가 RSS 1.0 의 공저자인 애런 스워츠와 협업을 통해 만들었으며, 아래 이미지를 보시면 보다 쉽게 이해가 됩니다. 화면 왼쪽이 작성된 마크다운 코드이고, 오른쪽이 서식이 적용된 HTML 결과 입니다.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">하둡 입문(1강) - 하둡의 탄생과 생태계의 활용</title>
-      <link href="https://taehui.github.io/hadoop-1" rel="alternate" type="text/html" title="하둡 입문(1강) - 하둡의 탄생과 생태계의 활용" />
-      <published>2020-01-21T01:40:00+09:00</published>
-      <updated>2020-01-21T01:40:00+09:00</updated>
-      <id>https://taehui.github.io/hadoop-1</id>
-      <content type="html" xml:base="https://taehui.github.io/hadoop-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;하둡의-탄생과-생태계의-활용동영상-강의&quot;&gt;하둡의 탄생과 생태계의 활용(동영상 강의)&lt;/h2&gt;
-
-&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/r9i4fJH6kQ0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Taehui Hong</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="platform" />
-      
-
-      
-        <summary type="html">데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 하둡 입문(1강) - 하둡의 탄생과 생태계의 활용 하둡 입문(2강) - 하둡 설치 하둡 입문(3강) - 하둡 분산파일시스템 이해1 하둡 입문(4강) - 하둡 분산파일시스템 이해2 하둡 입문(5강) - 하둡 맵리듀스 하둡 입문(5강) - 하둡 활용</summary>
       
 
       
@@ -456,12 +479,24 @@ CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크�
     </entry>
   
     <entry>
-      <title type="html">Python 강좌(1) - Python 기본</title>
-      <link href="https://taehui.github.io/platform-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
+      <title type="html">하둡 입문(3강) - 하둡 분산파일시스템 이해1</title>
+      <link href="https://taehui.github.io/hadoop-3" rel="alternate" type="text/html" title="하둡 입문(3강) - 하둡 분산파일시스템 이해1" />
       <published>2020-01-21T01:40:00+09:00</published>
       <updated>2020-01-21T01:40:00+09:00</updated>
-      <id>https://taehui.github.io/platform-basic</id>
-      <content type="html" xml:base="https://taehui.github.io/platform-basic">&lt;p&gt;이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.&lt;/p&gt;</content>
+      <id>https://taehui.github.io/hadoop-3</id>
+      <content type="html" xml:base="https://taehui.github.io/hadoop-3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;하둡-분산파일시스템-이해1동영상-강의&quot;&gt;하둡 분산파일시스템 이해1(동영상 강의)&lt;/h2&gt;
+
+&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/T6lng0734sc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
 
       
       
@@ -478,11 +513,57 @@ CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크�
       
 
       
-        <category term="tips" />
+        <category term="platform" />
       
 
       
-        <summary type="html">이 글은 깃페이지 플랫폼 관련 포스팅을 위한 템플릿 코드 입니다.</summary>
+        <summary type="html">데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 하둡 입문(1강) - 하둡의 탄생과 생태계의 활용 하둡 입문(2강) - 하둡 설치 하둡 입문(3강) - 하둡 분산파일시스템 이해1 하둡 입문(4강) - 하둡 분산파일시스템 이해2 하둡 입문(5강) - 하둡 맵리듀스 하둡 입문(5강) - 하둡 활용</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">하둡 입문(1강) - 하둡의 탄생과 생태계의 활용</title>
+      <link href="https://taehui.github.io/hadoop-1" rel="alternate" type="text/html" title="하둡 입문(1강) - 하둡의 탄생과 생태계의 활용" />
+      <published>2020-01-21T01:40:00+09:00</published>
+      <updated>2020-01-21T01:40:00+09:00</updated>
+      <id>https://taehui.github.io/hadoop-1</id>
+      <content type="html" xml:base="https://taehui.github.io/hadoop-1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-1&quot;&gt;하둡 입문(1강) - 하둡의 탄생과 생태계의 활용&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-2&quot;&gt;하둡 입문(2강) - 하둡 설치&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-3&quot;&gt;하둡 입문(3강) - 하둡 분산파일시스템 이해1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-4&quot;&gt;하둡 입문(4강) - 하둡 분산파일시스템 이해2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-5&quot;&gt;하둡 입문(5강) - 하둡 맵리듀스&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./hadoop-6&quot;&gt;하둡 입문(5강) - 하둡 활용&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;하둡의-탄생과-생태계의-활용동영상-강의&quot;&gt;하둡의 탄생과 생태계의 활용(동영상 강의)&lt;/h2&gt;
+
+&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/r9i4fJH6kQ0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Taehui Hong</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="platform" />
+      
+
+      
+        <summary type="html">데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 하둡 입문(1강) - 하둡의 탄생과 생태계의 활용 하둡 입문(2강) - 하둡 설치 하둡 입문(3강) - 하둡 분산파일시스템 이해1 하둡 입문(4강) - 하둡 분산파일시스템 이해2 하둡 입문(5강) - 하둡 맵리듀스 하둡 입문(5강) - 하둡 활용</summary>
       
 
       
