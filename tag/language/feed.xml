@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://taehui.github.io/tag/language/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://taehui.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-01-30T14:58:01+09:00</updated>
+  <updated>2021-01-30T18:47:30+09:00</updated>
   <id>https://taehui.github.io/tag/language/feed.xml</id>
 
   
@@ -60,6 +60,10 @@
   &lt;li&gt;np.ones -&amp;gt; 1이 들어있는 배열 생성&lt;/li&gt;
   &lt;li&gt;np.empty -&amp;gt; 초기화가 없는 값으로 배열을 반환&lt;/li&gt;
   &lt;li&gt;np.arrange(n) -&amp;gt; 배열 버전의 range 함수&lt;/li&gt;
+  &lt;li&gt;np.linspace(0, 1, 5) -&amp;gt; 0부터 1사이를 5개로 나눔&lt;/li&gt;
+  &lt;li&gt;np.random.random((2, 2)) -&amp;gt; 2X2 행열을 난수로 채움&lt;/li&gt;
+  &lt;li&gt;np.random.normal(0, 1, (2, 2)) -&amp;gt; 평균이 0이고, 표준편차가 1인 2X2 행열을 난수로 채움&lt;/li&gt;
+  &lt;li&gt;np.random.randint(0, 10, (2, 2)) -&amp;gt; 0 ~ 10 사이의 2X2 행열을 난수로 채움&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;numpy-함수-예제&quot;&gt;Numpy 함수 예제&lt;/h3&gt;
@@ -88,13 +92,50 @@
 
 &lt;h3 id=&quot;배열의-데이터타입-dtype&quot;&gt;배열의 데이터타입 dtype&lt;/h3&gt;
 
-&lt;p&gt;Python 리스트와는 다르게 array 는 단일타입으로 구성이 됩니다.&lt;/p&gt;
+&lt;p&gt;Python 리스트와는 다르게 array 는 단일타입으로 구성이 됩니다. 아래의 예제에서 처럼 Data Type 정의를 &lt;code class=&quot;highlighter-rouge&quot;&gt;dtype=float&lt;/code&gt; 로 하게되면,
+배열에 들어가는 모든 수는 float 형으로 생성이 됩니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 아래와 깉이 dtype 을 float 으로 정의하면, 모든 array 는 float 형으로 생성된다.&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dtype&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dtype&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;   &lt;span class=&quot;c&quot;&gt;# array([1., 2., 3., 4.])&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dtype&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# dtype('float64')&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# 형변환을 위해서 astype 함수를 사용&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;astype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# array([1, 2, 3, 4])&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Data Type 으로 표현할 수 있는 유형의 예는 아래와 같습니다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;dtype&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;설명&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;표현 유형&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;int&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;정수형 타입&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;i, int_, int32, int64, i8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;float&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;실수형 타입&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;f, float_, float32, float64, f8&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;str&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;문자형 타입&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;str, U, U32&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;bool&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;불린 타입&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;?, bool_&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 &lt;span class=&quot;c&quot;&gt;# 2*4 배열을 소수 1.0 으로 초기화 하여 생성&lt;/span&gt;
