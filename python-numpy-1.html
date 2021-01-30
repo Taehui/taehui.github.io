@@ -240,6 +240,25 @@ into the {body} of the default.hbs template -->
 <span class="k">print</span><span class="p">(</span><span class="n">array1</span><span class="p">)</span>
 <span class="c"># [0 1 2 3]</span>
 
+<span class="c"># 2차원 배열 생성</span>
+<span class="n">array2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+                   <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]])</span>
+<span class="k">print</span><span class="p">(</span><span class="n">array2</span><span class="p">)</span>
+<span class="c"># [[1, 2],</span>
+<span class="c">#  [3, 4]]</span>
+</code></pre></div></div>
+
+<h3 id="배열의-데이터타입-dtype">배열의 데이터타입 dtype</h3>
+
+<p>Python 리스트와는 다르게 array 는 단일타입으로 구성이 됩니다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 아래와 깉이 dtype 을 float 으로 정의하면, 모든 array 는 float 형으로 생성된다.</span>
+<span class="n">array</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+<span class="n">array</span>   <span class="c"># array([1., 2., 3., 4.])</span>
+<span class="n">array</span><span class="o">.</span><span class="n">dtype</span> <span class="c"># dtype('float64')</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 <span class="c"># 2*4 배열을 소수 1.0 으로 초기화 하여 생성</span>
 <span class="n">array2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">array2</span><span class="p">)</span>
