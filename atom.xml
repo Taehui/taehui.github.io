@@ -194,7 +194,7 @@
     
       
       <item>
-        <title>Numpy 란 무엇인가?</title>
+        <title>Numpy 살펴보기(1)</title>
         
           <description>&lt;h2 id=&quot;numpy-란&quot;&gt;Numpy 란?&lt;/h2&gt;
 &lt;p&gt;Numpy 는 Numerical Python 의 약자로 Python 에서 &lt;strong&gt;대규모 다차원 배열&lt;/strong&gt; 을 다룰 수 있게 도와주는 라이브러리 입니다.&lt;/p&gt;

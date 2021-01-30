@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://taehui.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taehui.github.io/" rel="alternate" type="text/html" /><updated>2021-01-30T14:33:13+09:00</updated><id>https://taehui.github.io/</id><title type="html">코딩하는 할배</title><subtitle>소프트웨어 개발자를 위해 기술에 대한 이야기를 합니다.</subtitle><entry><title type="html">Hive 사용 시 Small File Merge 방법</title><link href="https://taehui.github.io/hive-small-file-merge" rel="alternate" type="text/html" title="Hive 사용 시 Small File Merge 방법" /><published>2020-01-29T04:38:00+09:00</published><updated>2020-01-29T04:38:00+09:00</updated><id>https://taehui.github.io/hive-small-file-merge</id><content type="html" xml:base="https://taehui.github.io/hive-small-file-merge">&lt;h2 id=&quot;하이브-설정을-통한-병합&quot;&gt;하이브 설정을 통한 병합&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://taehui.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://taehui.github.io/" rel="alternate" type="text/html" /><updated>2021-01-30T14:42:35+09:00</updated><id>https://taehui.github.io/</id><title type="html">코딩하는 할배</title><subtitle>소프트웨어 개발자를 위해 기술에 대한 이야기를 합니다.</subtitle><entry><title type="html">Hive 사용 시 Small File Merge 방법</title><link href="https://taehui.github.io/hive-small-file-merge" rel="alternate" type="text/html" title="Hive 사용 시 Small File Merge 방법" /><published>2020-01-29T04:38:00+09:00</published><updated>2020-01-29T04:38:00+09:00</updated><id>https://taehui.github.io/hive-small-file-merge</id><content type="html" xml:base="https://taehui.github.io/hive-small-file-merge">&lt;h2 id=&quot;하이브-설정을-통한-병합&quot;&gt;하이브 설정을 통한 병합&lt;/h2&gt;
 &lt;p&gt;관련 설정 4가지 중에서,&lt;/p&gt;
 
 &lt;ul&gt;
@@ -197,7 +197,7 @@ CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크�
 
 &lt;h2 id=&quot;하둡의-탄생과-생태계의-활용동영상-강의&quot;&gt;하둡의 탄생과 생태계의 활용(동영상 강의)&lt;/h2&gt;
 
-&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/r9i4fJH6kQ0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Taehui Hong</name></author><category term="platform" /><summary type="html">데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 하둡 입문(1강) - 하둡의 탄생과 생태계의 활용 하둡 입문(2강) - 하둡 설치 하둡 입문(3강) - 하둡 분산파일시스템 이해1 하둡 입문(4강) - 하둡 분산파일시스템 이해2 하둡 입문(5강) - 하둡 맵리듀스 하둡 입문(5강) - 하둡 활용</summary></entry><entry><title type="html">Numpy 란 무엇인가?</title><link href="https://taehui.github.io/python-numpy-1" rel="alternate" type="text/html" title="Numpy 란 무엇인가?" /><published>2020-01-21T01:40:00+09:00</published><updated>2020-01-21T01:40:00+09:00</updated><id>https://taehui.github.io/python-numpy-1</id><content type="html" xml:base="https://taehui.github.io/python-numpy-1">&lt;h2 id=&quot;numpy-란&quot;&gt;Numpy 란?&lt;/h2&gt;
+&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/r9i4fJH6kQ0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Taehui Hong</name></author><category term="platform" /><summary type="html">데이터 엔지니어를 위한 하둡(Hadoop) 강좌 시리즈 입니다. 하둡 입문(1강) - 하둡의 탄생과 생태계의 활용 하둡 입문(2강) - 하둡 설치 하둡 입문(3강) - 하둡 분산파일시스템 이해1 하둡 입문(4강) - 하둡 분산파일시스템 이해2 하둡 입문(5강) - 하둡 맵리듀스 하둡 입문(5강) - 하둡 활용</summary></entry><entry><title type="html">Numpy 살펴보기(1)</title><link href="https://taehui.github.io/python-numpy-1" rel="alternate" type="text/html" title="Numpy 살펴보기(1)" /><published>2020-01-21T01:40:00+09:00</published><updated>2020-01-21T01:40:00+09:00</updated><id>https://taehui.github.io/python-numpy-1</id><content type="html" xml:base="https://taehui.github.io/python-numpy-1">&lt;h2 id=&quot;numpy-란&quot;&gt;Numpy 란?&lt;/h2&gt;
 &lt;p&gt;Numpy 는 Numerical Python 의 약자로 Python 에서 &lt;strong&gt;대규모 다차원 배열&lt;/strong&gt; 을 다룰 수 있게 도와주는 라이브러리 입니다.&lt;/p&gt;
 
 &lt;p&gt;대부분의 데이터가 숫자의 배열로 나타낼 수 있기 때문에, Numpy 라이브러리는 효율적인 데이터분석이 가능하도록 N차원의 배열 
@@ -212,17 +212,6 @@ CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크�
 
 &lt;h2 id=&quot;배열-만들기&quot;&gt;배열 만들기&lt;/h2&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 파이썬에서 리스트 만들기&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# Numpy 에서 배열 만들기&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# array([1, 2, 3, 4, 5])&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
 &lt;p&gt;numpy library에서 자주 사용하는 함수로는 아래와 같은 것들이 있습니다.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -234,20 +223,31 @@ CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크�
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;numpy-함수-예제&quot;&gt;Numpy 함수 예제&lt;/h3&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# numpy를 사용하기 위해 import&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;c&quot;&gt;# 파이썬에서 리스트 만들기&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# numpy를 사용하기 위해 import&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# array([1, 2, 3, 4, 5])&lt;/span&gt;
 
 &lt;span class=&quot;c&quot;&gt;# 1차원 배열을 생성&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;array1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# [0 1 2 3]&lt;/span&gt;
 
 &lt;span class=&quot;c&quot;&gt;# 2*4 배열을 소수 1.0 으로 초기화 하여 생성&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;array2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ones&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dtype&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# [[1. 1. 1. 1.]&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# [1. 1. 1. 1.]]&lt;/span&gt;
 
 &lt;span class=&quot;c&quot;&gt;# 1차원 배열을 0 으로 초기화 하여 생성&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;array3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zeros&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# [0. 0. 0. 0. 0.]&lt;/span&gt;
 
 &lt;span class=&quot;c&quot;&gt;# 리스트를 생성&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
@@ -257,27 +257,22 @@ CommonMark 에서 정의한 스펙에 따라 이를 기반으로 많은 마크�
 
 &lt;span class=&quot;c&quot;&gt;# 데이터타입 출력&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array_data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dtype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# int64&lt;/span&gt;
+
 &lt;span class=&quot;c&quot;&gt;# 데이터 길이 출력&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 16&lt;/span&gt;
+
 &lt;span class=&quot;c&quot;&gt;# 데이터 크기 출력&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array_data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 16&lt;/span&gt;
 
 &lt;span class=&quot;c&quot;&gt;# 마스킹 연산을 활용하여 어레이 중에서 0 인 값을 세기&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array_data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 9&lt;/span&gt;
 
 &lt;span class=&quot;c&quot;&gt;# np.count_nonzero 함수를 사용하여 0 인 값 세기&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count_nonzero&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array_data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 9&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;실행결과&quot;&gt;실행결과&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[0 1 2 3]
-[[1. 1. 1. 1.]
- [1. 1. 1. 1.]]
-[0. 0. 0. 0. 0.]
-int64
-16
-16
-9
-9
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Taehui Hong</name></author><category term="language" /><summary type="html">Numpy 란? Numpy 는 Numerical Python 의 약자로 Python 에서 대규모 다차원 배열 을 다룰 수 있게 도와주는 라이브러리 입니다.</summary></entry></feed>
