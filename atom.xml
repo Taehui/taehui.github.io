@@ -194,15 +194,16 @@
     
       
       <item>
-        <title>Python 강좌(1) - Python 기본</title>
+        <title>Numpy 란 무엇인가?</title>
         
-          <description>&lt;p&gt;이 글은 깃페이지 언어 관련 포스팅을 위한 템플릿 코드 입니다.&lt;/p&gt;
+          <description>&lt;h2 id=&quot;numpy-란&quot;&gt;Numpy 란?&lt;/h2&gt;
+
 </description>
         
         <pubDate>Tue, 21 Jan 2020 01:40:00 +0900</pubDate>
         <link>
-        https://taehui.github.io/language-basic</link>
-        <guid isPermaLink="true">https://taehui.github.io/language-basic</guid>
+        https://taehui.github.io/python-numpy-1</link>
+        <guid isPermaLink="true">https://taehui.github.io/python-numpy-1</guid>
       </item>
       
     
