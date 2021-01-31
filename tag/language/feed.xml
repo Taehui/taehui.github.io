@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://taehui.github.io/tag/language/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://taehui.github.io/" rel="alternate" type="text/html" />
-  <updated>2021-01-30T18:47:30+09:00</updated>
+  <updated>2021-01-31T21:10:15+09:00</updated>
   <id>https://taehui.github.io/tag/language/feed.xml</id>
 
   
@@ -59,7 +59,7 @@
   &lt;li&gt;np.zeros -&amp;gt; 0이 들어있는 배열 생성&lt;/li&gt;
   &lt;li&gt;np.ones -&amp;gt; 1이 들어있는 배열 생성&lt;/li&gt;
   &lt;li&gt;np.empty -&amp;gt; 초기화가 없는 값으로 배열을 반환&lt;/li&gt;
-  &lt;li&gt;np.arrange(n) -&amp;gt; 배열 버전의 range 함수&lt;/li&gt;
+  &lt;li&gt;np.arange(n) -&amp;gt; 배열 버전의 range 함수&lt;/li&gt;
   &lt;li&gt;np.linspace(0, 1, 5) -&amp;gt; 0부터 1사이를 5개로 나눔&lt;/li&gt;
   &lt;li&gt;np.random.random((2, 2)) -&amp;gt; 2X2 행열을 난수로 채움&lt;/li&gt;
   &lt;li&gt;np.random.normal(0, 1, (2, 2)) -&amp;gt; 평균이 0이고, 표준편차가 1인 2X2 행열을 난수로 채움&lt;/li&gt;
